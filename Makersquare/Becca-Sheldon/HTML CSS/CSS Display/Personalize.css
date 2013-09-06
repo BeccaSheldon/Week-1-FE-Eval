@@ -1,0 +1,128 @@
+/* Start Body - Use to define text only once */
+body {
+	font-family: Helvetica
+}
+/* End Body */
+
+
+/* Start Header Section */
+header { 
+	background-color: #1F232E;
+	padding: 25px 10px;
+}
+header h2 {
+	font-family: ChunkFive;
+	font-size: 30px;
+	text-align: center;
+	color: #eee;
+	text-shadow: 1px 2px #999;
+}
+#lines {
+	display: block;
+	background-color: #444;
+	width: 40px;
+	height: 1px;
+} 
+/* End Header Section */
+
+
+/* Start Nav Section */
+nav {
+	background-color: #F5D302;
+	border: 1px #ccc;
+	border-radius: 2px;
+	box-shadow: 2px 2px #ccc;
+	text-align: center;
+	width: 50%;
+	position: absolute;
+	top: 120px;
+	left: 275px;
+	padding-right: 30px;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+nav ul li a {
+	text-decoration: none;
+}
+body#body a#homenav {
+	color: #666;
+}
+a:link {
+	color: #2B2B2B;
+}
+a:visited {
+	color: #2B2B2B;
+}
+a:hover {
+	color: #FFF;
+}
+/* End Nav Section */
+
+
+/* Start Intro Block*/
+#intro { 
+	background-color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 40px 70px 20px 70px;
+	font-family: Chunkfive;
+	color: #2B2B2B;
+} 
+#intro h1 {
+	font-size: 50px;
+	text-shadow: 1px 3px #999;
+}
+/* End Intro Block*/
+
+
+/* Start Main Content Block*/
+#main { 
+	background-color: #E9E9E9;
+}
+#maintext {
+	padding: 15px ;
+}
+#maintext p {
+	margin-top: -20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.boxrow1 {
+	font-size: 10px;
+	margin: 10px 0px;
+	padding-left: 200px;
+}
+.boxrow2 {
+	font-size: 10px;
+	padding-left: 200px;
+}
+.box {
+	width: 270px;
+	display: inline-block;
+}
+.box p {
+	width: 260px;
+	text-align: justify;
+} 
+/* End Main Content Block*/
+
+
+/* Start Footer */
+footer {
+	clear: left;
+	background-color: #1F232E;
+	text-align: center;
+	padding: 10px;
+	font-size: 13px;
+	color: #E9E9E9;
+}
+footer a:link {
+	color: #F5D302;
+	text-decoration: none;
+}
+/* Start Footer */ 
+
+
